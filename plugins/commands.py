@@ -24,7 +24,7 @@ from pyrogram import Client, filters
 
 HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @AsmSafone!"
 HELP = """🏷️ **Need Help?** 🤔
-__(Join @SafoTheBot For Support)__
+__(Join @Viploveboy007 For Support)__
 
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -49,21 +49,20 @@ __(Join @SafoTheBot For Support)__
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: Viploveboy ** 👑
 """
 
 
 @Client.on_message(filters.command('start'))
 async def start(client, message):
     buttons = [
-        [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
-    ],
-    [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/AsmSafone/12'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/AsmSafone/RadioPlayerV2'),
-    ],
+        
+        
+    
+    
+       
+
+
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
         
